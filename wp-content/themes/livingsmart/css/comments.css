@@ -1,0 +1,127 @@
+/* =Comments
+----------------------------------------------- */
+
+#comments-title {margin: 2px 0 17px;}
+
+.nopassword,
+.nocomments {
+	color: #aaa;
+	font-size: 24px;
+	font-weight: 100;
+	margin: 26px 0;
+	text-align: center;
+}
+.commentlist {
+	list-style: none;
+	margin: 0;
+}
+.content .commentlist,
+.page-template-sidebar-page-php .commentlist {
+	
+}
+.commentlist > li.comment {
+	background: #eee8e0;
+	margin-bottom: 20px;
+	padding: 15px 20px 20px;
+}
+.commentlist > li.comment.odd {
+	background: #fcfaf9;
+}
+
+#main .comment-content p {margin-bottom: 0;}
+
+.comment-meta h6 {
+	font-size: 18px;
+	color: #94c3c0;
+	margin-bottom: 20px;
+	font-family: 'SommetRoundedBlack', Arial, Helvetica;
+}
+
+/* Comment Form */
+#respond {
+	padding-top: 15px;
+}
+#respond h3#reply-title {
+	font-size: 18px;
+	color: #53a7aa;
+	padding: 0;
+	margin-bottom: 12px;
+	background: none;
+	text-transform: none;
+}
+#respond .comment-form-author,
+#respond .comment-form-email,
+#respond .comment-form-url {
+	min-height: 24px;
+}
+#respond .comment-form-author input,
+#respond .comment-form-email input,
+#respond .comment-form-url input {
+	background: #ede8df;
+	width: 288px;
+	height: 14px;
+	padding: 5px 10px;
+	font-size: 14px;
+	float: left;
+	border: none;
+	margin-bottom: 16px;
+}
+#main #respond p {
+	clear: both;
+	margin-bottom: 16px;
+}
+#main #respond p.comment-notes {
+	display: none;
+	margin: 0;
+}
+#respond label {
+	font-size: 18px;
+	color: #94c3c0;
+	font-family: 'SommetRoundedBlack', Arial, Helvetica;
+}
+#respond .comment-form-author label,
+#respond .comment-form-email label,
+#respond .comment-form-url label {
+	float: right;
+	text-align: left;
+	width: 230px;
+}
+#respond textarea {
+	resize: vertical;
+	width: 539px;
+	height: 200px;
+	padding: 5px 10px;
+	border: none;
+	background: #ede8df;
+	margin-top: 10px;
+}
+#respond .comment-form-author .required,
+#respond .comment-form-email .required {
+	display: none;
+}
+#respond .comment-notes,
+#respond .logged-in-as {
+	font-size: 13px;
+}
+
+#respond .form-submit {
+	text-align: right;
+}
+#respond input#submit {
+	font-size: 18px;
+	color: #fff;
+	font-family: 'SommetRoundedBlack', Arial, Helvetica;
+	height: 38px;
+	width: 219px;
+	background: url(../images/submit_bg.jpg) no-repeat left top;
+	border: none;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+p.comment-form-comment {
+	margin: 0;
+}
+.form-allowed-tags {
+	display: none;
+}

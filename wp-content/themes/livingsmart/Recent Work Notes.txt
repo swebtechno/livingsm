@@ -1,0 +1,37 @@
+23-December-2014 Work::
+
+Make admin settings:-
+
+1. Set course page template "Courses Template".
+
+2. Event Espresso->General Settings->Page Settings->Main registration page=Courses.
+
+3. Insert [ESPRESSO_CALENDAR] ShortCode in Calendar Page's Content.
+
+4. Add Events: Event Espresso->Event Overview->Add New Event.
+
+Note: Tomorrow i will start to stylize all these stuff. (calendar page, courses page and registration page).
+
+----------------------------------------------------------------------------------------------------------------
+24-December-2014 Work::
+
+paypal setting in admin panel:-
+
+1. Event Espresso->Payment Settings->Paypal Settings->Activate PayPal IPN
+2. Event Espresso->Payment Settings->Paypal Settings->PayPal ID = Your Paypal ID
+3. Event Espresso->Payment Settings->Paypal Settings->Select the Currency for Your Country = AUD
+
+
+Completed Pages:-
+1. Listing of all events
+2. Registration Page
+3. Registration Confirmation Page
+4. Payment Overview Page
+5. Payment Canceled Page
+6. Thankyou Page (Paymeny Completed)
+
+
+Remianing Pages:-
+1. Calendar page
+
+----------------------------------------------------------------------------------------------------------------
